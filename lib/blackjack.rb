@@ -61,7 +61,7 @@ def runner
     card_total = hit?(card_total)
     display_card_total(card_total)
   end
-
+end_game(card_total)
 # If they want to stay, ask them again!
 # If they want to hit, deal another card and display the new total
 # If their card total exceeds 21, the game ends.
